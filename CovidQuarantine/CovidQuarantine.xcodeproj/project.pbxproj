@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3141B51245D1D6900B336B2 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3141B50245D1D6900B336B2 /* AppUser.swift */; };
+		F3141B53245D210100B336B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3141B52245D210100B336B2 /* HomeViewController.swift */; };
 		F3A4B75C245C5118008E8C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4B75B245C5118008E8C50 /* AppDelegate.swift */; };
 		F3A4B75E245C5118008E8C50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4B75D245C5118008E8C50 /* SceneDelegate.swift */; };
 		F3A4B760245C5118008E8C50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4B75F245C5118008E8C50 /* ViewController.swift */; };
@@ -16,9 +18,12 @@
 		F3A4B76B245C5122008E8C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A4B769245C5122008E8C50 /* LaunchScreen.storyboard */; };
 		F3A4B775245C5241008E8C50 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4B774245C5241008E8C50 /* CloudKit.framework */; };
 		F3A4B779245C61E1008E8C50 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4B778245C61E1008E8C50 /* RegisterViewController.swift */; };
+		F3D70B49245DABD60057355D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D70B4B245DABD60057355D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3141B50245D1D6900B336B2 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		F3141B52245D210100B336B2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F3A4B758245C5118008E8C50 /* CovidQuarantine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidQuarantine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A4B75B245C5118008E8C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3A4B75D245C5118008E8C50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +36,10 @@
 		F3A4B772245C5239008E8C50 /* CovidQuarantine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CovidQuarantine.entitlements; sourceTree = "<group>"; };
 		F3A4B774245C5241008E8C50 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		F3A4B778245C61E1008E8C50 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F3D70B3D245DAA200057355D /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		F3D70B3E245DAA200057355D /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F3D70B4A245DABD60057355D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3D70B4C245DABDC0057355D /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,7 @@
 		F3A4B75A245C5118008E8C50 /* CovidQuarantine */ = {
 			isa = PBXGroup;
 			children = (
+				F3D70B4B245DABD60057355D /* Localizable.strings */,
 				F3A4B772245C5239008E8C50 /* CovidQuarantine.entitlements */,
 				F3A4B75B245C5118008E8C50 /* AppDelegate.swift */,
 				F3A4B75D245C5118008E8C50 /* SceneDelegate.swift */,
@@ -75,6 +85,8 @@
 				F3A4B769245C5122008E8C50 /* LaunchScreen.storyboard */,
 				F3A4B76C245C5122008E8C50 /* Info.plist */,
 				F3A4B764245C5118008E8C50 /* CovidQuarantine.xcdatamodeld */,
+				F3141B50245D1D6900B336B2 /* AppUser.swift */,
+				F3141B52245D210100B336B2 /* HomeViewController.swift */,
 			);
 			path = CovidQuarantine;
 			sourceTree = "<group>";
@@ -129,6 +141,7 @@
 			knownRegions = (
 				en,
 				Base,
+				th,
 			);
 			mainGroup = F3A4B74F245C5118008E8C50;
 			productRefGroup = F3A4B759245C5118008E8C50 /* Products */;
@@ -146,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A4B76B245C5122008E8C50 /* LaunchScreen.storyboard in Resources */,
+				F3D70B49245DABD60057355D /* Localizable.strings in Resources */,
 				F3A4B768245C5122008E8C50 /* Assets.xcassets in Resources */,
 				F3A4B763245C5118008E8C50 /* Main.storyboard in Resources */,
 			);
@@ -162,6 +176,8 @@
 				F3A4B779245C61E1008E8C50 /* RegisterViewController.swift in Sources */,
 				F3A4B766245C5118008E8C50 /* CovidQuarantine.xcdatamodeld in Sources */,
 				F3A4B75C245C5118008E8C50 /* AppDelegate.swift in Sources */,
+				F3141B51245D1D6900B336B2 /* AppUser.swift in Sources */,
+				F3141B53245D210100B336B2 /* HomeViewController.swift in Sources */,
 				F3A4B75E245C5118008E8C50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +189,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F3A4B762245C5118008E8C50 /* Base */,
+				F3D70B3D245DAA200057355D /* th */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -181,8 +198,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				F3A4B76A245C5122008E8C50 /* Base */,
+				F3D70B3E245DAA200057355D /* th */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D70B4B245DABD60057355D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D70B4A245DABD60057355D /* en */,
+				F3D70B4C245DABDC0057355D /* th */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -192,6 +220,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -252,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

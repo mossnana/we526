@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Identification Number"; ObjectID = "82D-pL-zN0"; */
+"82D-pL-zN0.text" = "รหัสบัตรประชาชน";
+
+/* Class = "UILabel"; text = "Covid Quarantine"; ObjectID = "8FM-27-u3P"; */
+"8FM-27-u3P.text" = "รายงานตัวผู้ติดเชื้อ";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "EBT-Yx-UI9"; */
+"EBT-Yx-UI9.text" = "ยังไม่พบข้อมูล";
+
+/* Class = "UILabel"; text = "For new patient"; ObjectID = "FM5-8F-XPb"; */
+"FM5-8F-XPb.text" = "ผู้ป่วยใหม่";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "MaO-hL-e6d"; */
+"MaO-hL-e6d.normalTitle" = "ออกจากระบบ";
+
+/* Class = "UILabel"; text = "Latitude"; ObjectID = "NRQ-Op-LJn"; */
+"NRQ-Op-LJn.text" = "ละติจูด";
+
+/* Class = "UILabel"; text = "Hi, -"; ObjectID = "Ndi-68-XX5"; */
+"Ndi-68-XX5.text" = "สวัสดี, -";
+
+/* Class = "UIButton"; normalTitle = "Get Your Location"; ObjectID = "OgG-0I-NFv"; */
+"OgG-0I-NFv.normalTitle" = "ค้นหาตำแหน่งปัจจุบัน";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "P2L-pS-ReF"; */
+"P2L-pS-ReF.text" = "รหัสผ่าน";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "Tmj-D8-rWw"; */
+"Tmj-D8-rWw.normalTitle" = "ลงทะเบียน";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "YPb-K3-GGs"; */
+"YPb-K3-GGs.normalTitle" = "ลงทะเบียน";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "bcK-Iu-hxq"; */
+"bcK-Iu-hxq.text" = "รหัสผ่าน";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "cc2-r0-5r2"; */
+"cc2-r0-5r2.text" = "-";
+
+/* Class = "UILabel"; text = "Identification Number"; ObjectID = "ckR-3c-DhX"; */
+"ckR-3c-DhX.text" = "รหัสบัตรประชาชน";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "fjO-EJ-TvT"; */
+"fjO-EJ-TvT.text" = "ชื่อเต็ม";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "lR8-UR-eCV"; */
+"lR8-UR-eCV.text" = "ยังไม่พบข้อมูล";
+
+/* Class = "UILabel"; text = "Longtitude"; ObjectID = "rmU-fu-L2N"; */
+"rmU-fu-L2N.text" = "ลองติจูด";
+
+/* Class = "UILabel"; text = "Your Location"; ObjectID = "uGd-A8-Wy9"; */
+"uGd-A8-Wy9.text" = "ตำแหน่งที่กักตัว";
+
+/* Class = "UIButton"; normalTitle = "Check-in for today"; ObjectID = "xQd-de-frb"; */
+"xQd-de-frb.normalTitle" = "ลงทะเบียนกักตัวรายวัน";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "ytW-gE-Zx8"; */
+"ytW-gE-Zx8.normalTitle" = "เข้าสู่ระบบ";

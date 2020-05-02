@@ -7,6 +7,7 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var fullName: UITextField!
     @IBOutlet weak var personId: UITextField!
+    @IBOutlet weak var password: UITextField!
     @IBOutlet weak var latitude: UILabel!
     @IBOutlet weak var longtitude: UILabel!
     @IBOutlet weak var registerBtnOutlet: UIButton!
@@ -25,6 +26,7 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
         loading.isHidden = false
         let name = (fullName.text)!.trimmingCharacters(in: .whitespaces)
         let id = (personId.text)!.trimmingCharacters(in: .whitespaces)
+        let pwd = (password.text)!.trimmingCharacters(in: .whitespaces)
         let lat = (latitude.text)!.trimmingCharacters(in: .whitespaces)
         let long = (longtitude.text)!.trimmingCharacters(in: .whitespaces)
         if (!name.isEmpty && !id.isEmpty && !lat.isEmpty && !long.isEmpty) {
@@ -34,10 +36,10 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
             let recordObject = CKRecord(recordType: "AppUsers", recordID: recordID)
             recordObject.setObject(name as CKRecordValue, forKey: "name")
             recordObject.setObject(id as CKRecordValue, forKey: "id")
+            recordObject.setObject(pwd as CKRecordValue, forKey: "password")
             recordObject.setObject(lat as CKRecordValue, forKey: "latitude")
             recordObject.setObject(long as CKRecordValue, forKey: "longtitude")
             recordObject.setObject(NSDate(), forKey: "registerDate")
-            
             let container = CKContainer.default()
             let privateDatabase = container.privateCloudDatabase
             privateDatabase.save(recordObject, completionHandler: { (myRecord, error) -> Void in
@@ -64,6 +66,10 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        locationManager.stopUpdatingLocation()
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
